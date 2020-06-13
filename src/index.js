@@ -3,6 +3,13 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+import './assets/scss/base.scss'
+
+// Add Avatar
+import 'antd/dist/antd.css'
+// Add icon 
+import '@quasar/extras/ionicons-v4/ionicons-v4.css'
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
