@@ -35,7 +35,7 @@ const mergeStyles = function (posts, config) {
     });
 }
 
-const recentPosts = [...trending, ...featured, ...featured]
+const recentPosts = [...trending, ...featured]
 
 mergeStyles(trending, trendingConfig)
 mergeStyles(featured, featuredConfig)
@@ -45,6 +45,7 @@ const lastFeatured = featured.pop() // Pop the last post
 export default function Home () {
     return (
       <main className="home">
+
         <section className="container">
           <div className="row">
           <h1>Featured Posts</h1>
